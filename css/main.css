@@ -1,0 +1,141 @@
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.btnCarrito {
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-inline-end: 2rem;
+}
+
+.bi {
+    padding-right: 8px;
+}
+
+.numerito {
+    display: flex;
+    padding-left: 5px;
+}
+
+.btnVolver {
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-inline-start: 2rem;
+}
+
+.contenedorProductos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row; 
+    margin-top: 3rem;
+}
+
+.imagenProducto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 250px;
+    padding: 10px 0px;
+}
+
+.producto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    border: 3px solid black;
+    width: 20rem;
+}
+
+.detallesProducto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    border: 1px solid black;
+    width: 20rem;
+    background-color: darkgray;
+}
+
+.tituloProducto {
+    margin: 5px;
+}
+
+.descripcionProducto {
+    margin: 3px;
+}
+
+.precioProducto {
+    margin: 5px;
+}
+
+.btnAgregar {
+    font-size: large;
+    width: 8rem;
+    height: 3rem;
+    margin: 1rem;
+}
+
+.carrito-productos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.carrito-producto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.carrito-producto-imagen {
+    width: auto;
+    height: 5rem;
+}
+
+.carrito-acciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.carrito-acciones-derecha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.carrito-acciones-total {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 1rem;
+}
+
+#total {
+    padding: 0rem 0.25rem;
+}
